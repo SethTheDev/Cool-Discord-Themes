@@ -1,0 +1,14 @@
+/**
+ * @name Rotating Logo
+ * @author the_python
+ * @version 1.0
+ * @description funny
+*/
+
+.wrapper__3af0b {
+    transition: transform 2s;
+}
+
+.wrapper__3af0b:hover {
+    transform: rotate(360deg);
+}
