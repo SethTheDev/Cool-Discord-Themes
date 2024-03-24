@@ -6,17 +6,9 @@
 */
 
 .avatarSpeaking_c95053 {
-    animation-name: rotate;
-    animation-duration: 1s;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
+    transform: rotate(360deg);
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.userAvatar_c4f005 {	
+    transition: transform 1s;
 }
