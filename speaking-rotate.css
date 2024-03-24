@@ -1,0 +1,22 @@
+/**
+ * @name Rotate Speaking Users
+ * @author the_python
+ * @version 1.1
+ * @description A CSS Theme that makes it so that the avatar's of people speaking in VC rotate
+*/
+
+.avatarSpeaking_c95053 {
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
